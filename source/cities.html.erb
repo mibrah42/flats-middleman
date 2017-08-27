@@ -1,0 +1,12 @@
+<h1> where you can find us? </h1>
+
+<ul class="list-inline">
+  <% %w(berlin shanghai paris tokyo rio).each do |city| %>
+  <li>
+    <img src="https://kitt.lewagon.com/placeholder/cities/<%= city %>" alt="" class="img-rounded" height="100px">
+    <p><%= city.capitalize %></p>
+  </li>
+
+  <% end %>
+
+</ul>

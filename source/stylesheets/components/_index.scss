@@ -1,3 +1,12 @@
 // Import your components CSS files here.
 @import "alert";
 @import "navbar";
+
+.wrapper {
+background-color: lightgrey;
+padding:50px;
+height: 350px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
